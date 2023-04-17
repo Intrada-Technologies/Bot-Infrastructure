@@ -1,0 +1,16 @@
+{
+  "name": "Bot-Infrastructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Intrada-Technologies/Bot-Infrastructure.git",
+  "author": "Adam Post <adamrpostjr@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-file-routing": "^2.1.2",
+    "mysql2": "^3.2.0"
+  }
+}
