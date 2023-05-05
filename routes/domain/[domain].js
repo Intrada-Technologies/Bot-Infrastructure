@@ -41,7 +41,7 @@ const get = async (req, res) => {
     res.json({message: `It looks like ${domain} is located on Plesk Host 4`})    
     return;
   }
-  if (address.endsWith('.75')) {
+  if (address.endsWith('.75') || address.endsWith('.247')) {
     res.json({message: `It looks like ${domain} is located on Plesk Host 5`})  
     return;
   }
